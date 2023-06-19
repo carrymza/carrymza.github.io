@@ -1,0 +1,64 @@
+.container {
+  max-width: 515px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(0, 183, 255);
+
+}
+body {
+  background-color: lightgray;
+  padding: auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  border: 1px solid lightblue;
+  background-color:lightseagreen;
+
+}
+
+div{
+  position: relative;
+  background-color: whitesmoke;
+  align-self: self-start;
+  border: 2px solid black;
+}
+
+label {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+input[type="text"] {
+  font-size: 25px;
+  align-content: center;
+  padding: 1px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 24px;
+  padding: px 20px;
+  background-color: whitesmoke;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+p {
+  font-size: 3rem;
+  margin-top: 20px;
+  border: 0.5px solid chartreuse;
+  padding: 15px;
+  background-color: black;
+}

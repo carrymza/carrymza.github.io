@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- <link rel="apple-touch-icon" href="path/to/icon.png"> -->
+  <head>
+	<span class="border border-primary"></span>
+    <title >USPS TIME CONVERTER</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Clockcss.css">
+  </head>
+  <body>
+	<section class="card-body p-5 text-center">
+		<div class="container py-5 h-100 bg-primary text-white" style="border-radius: 1rem;">
+		<h1 class="display-5" class="mt-5">CLOCK TIME CONVERTER</h1>
+		<br>
+		<div class="<i class="fas fa-vr-cardboard>
+			<label center for="decimalInput">Enter USPS Time:</label>
+			<input class="align-center" type="text" id="decimalInput" placeholder="  Enter range between 0.00 - 23.99">
+		</div>
+		<br>
+		<button type="button" class="btn btn-success btn-lg"  onclick="convertAndDisplay()">Convert to 12-hour</button>
+		<p class="mt-3" id="timeOutput"></p>
+		</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+		integrity="sha384-+9xG9LQb7YVcVqjQ6E8nHjZfGJl6t4wJfj5r7h5zFzr8tOQ8g5eDZQzH9o0Z5qJ" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="dectime.js"></script>
+	</section>
+  </body>
+</html>

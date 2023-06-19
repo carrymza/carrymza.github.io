@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Monokai Night",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "vscode-edge-devtools.mirrorEdits": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.wordWrap": "on",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "php.executablePath": "",
+    "php.validate.executablePath": "C:\\xampp",
+    "python.linting.pylintArgs": [
+        "--load-plugins"
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    }
+}
