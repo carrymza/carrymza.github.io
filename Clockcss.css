@@ -23,6 +23,7 @@ div{
   background-color: whitesmoke;
   align-self: self-start;
   border: 2px solid black;
+  text-align: center;
 }
 
 label {
