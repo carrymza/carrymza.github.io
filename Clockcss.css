@@ -41,6 +41,12 @@ input[type="text"] {
   margin-bottom: 20px;
   width: 100%;
   box-sizing: border-box;
+  :-webkit-input-placeholder {
+        text-align: center;
+      }
+      :-moz-placeholder {
+        text-align: center;
+      }
 }
 
 button {
